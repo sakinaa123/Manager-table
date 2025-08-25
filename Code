@@ -1,0 +1,19 @@
+CREATE TABLE  MANAGERS (
+    Manager_id NUMBER PRIMARY KEY,
+    Name VARCHAR2(50),
+    DEPT_Name VARCHAR2(50),
+    Qualification VARCHAR2(100),
+    Experience NUMBER
+);
+INSERT INTO MANAGERS (Manager_id, Name, DEPT_Name, Qualification, Experience)
+VALUES(1, 'David', 'Sale', 'MPhil', 3);
+INSERT INTO MANAGERS (Manager_id, Name, DEPT_Name, Qualification, Experience)
+VALUES(2, 'Ahmad', 'Marketing', 'MS', 5);
+INSERT INTO MANAGERS (Manager_id, Name, DEPT_Name, Qualification, Experience)
+VALUES(3, 'Ali', 'IT', 'BBA', 1);
+INSERT INTO MANAGERS (Manager_id, Name, DEPT_Name, Qualification, Experience)
+VALUES(4, 'Maria', 'Finaance', 'PHD', 4);
+INSERT INTO MANAGERS (Manager_id, Name, DEPT_Name, Qualification, Experience)
+VALUES(5, 'Jhon', 'HR', 'MBA', 2);
+
+SELECT * FROM MANAGERS;
